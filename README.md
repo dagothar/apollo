@@ -13,7 +13,25 @@
                                             
     =================================================
 
-1. Linia komend
+1. Introduction
+---------------
+
+![Apollo Lunar Lander Simulator](apollo1.png "Apollo Lunar Lander Simulator - Overview")
+
+The package contains an Apollo Lunar Lander Simulator, written in C++. The simulator was written for the master thesis.
+
+Features:
+* Apollo landing simulation in 3D
+* Full dynamic simulation of the lander
+* Simulated rocket engine models
+* Author's 3D engine
+* Interface for Simulink control
+* Several auto-pilots implemented in Simulink
+* Stage detachment
+* Procedural generation of Moon surface
+* and others
+
+2. Linia komend
 ---------------
 
 	apollo.exe [-h host] [-m mapfile] [-mk 0.0] [-me 0.0] [-g 0.0] [-b 0.0]
@@ -35,7 +53,7 @@
 
 
 
-2. Sterowanie
+3. Sterowanie
 -------------
 
  
