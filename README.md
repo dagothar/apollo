@@ -11,16 +11,17 @@
               _/                                     
              _/       Adam Wolniakowski 2011     
                                             
-    --------------------------------------------------
+    =================================================
 
 1. Linia komend
+---------------
 
 	apollo.exe [-h host] [-m mapfile] [-mk 0.0] [-me 0.0] [-g 0.0] [-b 0.0]
 
 
 
-	-h host		Adres IP komputera, na którym uruchomiony jest wspó³pracuj¹cy model Simulinka.
-			Domyœlnie localhost.
+	-h host		Adres IP komputera, na ktÃ³rym uruchomiony jest wspÃ³Å‚pracujÄ…cy model Simulinka.
+			DomyÅ›lnie localhost.
 
 	-m		Nazwa pliku zawierajacego mape wysokosci powierzchni.
 
@@ -35,76 +36,77 @@
 
 
 2. Sterowanie
+-------------
 
  
-G³ówne
+* GÅ‚Ã³wne
 
- [esc]		Zakoñcz program	   
- p		W³¹cz/wy³¹cz pauzê	   
- m		Wygeneruj now¹ mapê
- n		W³¹cz/wy³¹cz d¿wiêk
- [tab]		Sterowanie WSAD: kamera/l¹downik	
+ [esc]		ZakoÅ„cz program	   
+ [p]		WÅ‚Ä…cz/wyÅ‚Ä…cz pauzÄ™	   
+ [m]		Wygeneruj nowÄ… mapÄ™
+ [n]		WÅ‚Ä…cz/wyÅ‚Ä…cz dÅ¼wiÄ™k
+ [tab]		Sterowanie WSAD: kamera/lÄ…downik	
    
 
 
-Kamera
+* Kamera
 
- w		Kamera w górê	   
- s		Kamera w dó³	   
- a		Kamera w lewo	   
- d		Kamera w prawo	   
- z		Przybli¿ kamerê	   
- x		Oddal kamerê	   
- c		Ustaw kamerê w po³o¿eniu pocz¹tkowym
- f		W³¹cz tryb pierwszej osoby
+ [w]		Kamera w gÃ³rÄ™	   
+ [s]		Kamera w dÃ³Å‚	   
+ [a]		Kamera w lewo	   
+ [d]		Kamera w prawo	   
+ [z]		PrzybliÅ¼ kamerÄ™	   
+ [x]		Oddal kamerÄ™	   
+ [c]		Ustaw kamerÄ™ w poÅ‚oÅ¼eniu poczÄ…tkowym
+ [f]		WÅ‚Ä…cz tryb pierwszej osoby
 
 
 
-Wyœwietlanie	
+* WyÅ›wietlanie	
    
- v		Poka¿ wektory orientacji, prêdkoœci i przyspieszenia oraz œlad na powierzchni	   
- b		Poka¿ trajektoriê ruchu	   
+ [v]		PokaÅ¼ wektory orientacji, prÄ™dkoÅ›ci i przyspieszenia oraz Å›lad na powierzchni	   
+ [b]		PokaÅ¼ trajektoriÄ™ ruchu	   
 
 
 
-Sterowanie l¹downikiem	   
+* Sterowanie lÄ…downikiem	   
 
- g		Umieœæ l¹downik w po³o¿eniu pocz¹tkowym na wysokoœci 0.0	   
- o		Umieœæ l¹downik w po³o¿eniu pocz¹tkowym na wysokoœci 1000.0
- j		Umieœæ l¹downik w po³o¿eniu losowym na wysokoœci 1500.0
-[spacja]	Silnik g³ówny: 100% (chwilowo)	   
- *		Silnik g³ówny: 100%	   
- /		Silnik g³ówny: 0%	   
- +, =		Silnik g³ówny: +5%	   
- -		Silnik g³ówny: -5%	   
- ','		Zmieñ tryb RCS: rotacja/translacja	   
- 8/w		Pochyl l¹downik do przodu	Przesuñ l¹downik do przodu	   
- 2/s		Pochyl l¹downik do ty³u		Przesuñ l¹downik do ty³u	   
- 4/a		Przechyl l¹downik w lewo	Przesuñ l¹downik w lewo	   
- 6/d		Przechyl l¹downik w prawo	Przesuñ l¹downik w prawo	   
- 1/q		Odchyl l¹downik w lewo		Przesuñ l¹downik do do³u	   
- 3/e		Odchyl l¹downik w prawo		Przesuñ l¹downik do góry	   
- 5		W³¹cz/wy³¹cz killrot	   
- u		W³¹cz/wy³¹cz zrzut paliwa silnika g³ównego	 
+ [g]		UmieÅ›Ä‡ lÄ…downik w poÅ‚oÅ¼eniu poczÄ…tkowym na wysokoÅ›ci 0.0	   
+ [o]		UmieÅ›Ä‡ lÄ…downik w poÅ‚oÅ¼eniu poczÄ…tkowym na wysokoÅ›ci 1000.0
+ [j]		UmieÅ›Ä‡ lÄ…downik w poÅ‚oÅ¼eniu losowym na wysokoÅ›ci 1500.0
+[spacja]	Silnik gÅ‚Ã³wny: 100% (chwilowo)	   
+ [*]		Silnik gÅ‚Ã³wny: 100%	   
+ [/]		Silnik gÅ‚Ã³wny: 0%	   
+ [+], [=]		Silnik gÅ‚Ã³wny: +5%	   
+ [-]		Silnik gÅ‚Ã³wny: -5%	   
+ [,]		ZmieÅ„ tryb RCS: rotacja/translacja	   
+ [8]/[w]		Pochyl lÄ…downik do przodu	PrzesuÅ„ lÄ…downik do przodu	   
+ [2]/[s]		Pochyl lÄ…downik do tyÅ‚u		PrzesuÅ„ lÄ…downik do tyÅ‚u	   
+ [4]/[a]		Przechyl lÄ…downik w lewo	PrzesuÅ„ lÄ…downik w lewo	   
+ [6]/[d]		Przechyl lÄ…downik w prawo	PrzesuÅ„ lÄ…downik w prawo	   
+ [1]/[q]		Odchyl lÄ…downik w lewo		PrzesuÅ„ lÄ…downik do doÅ‚u	   
+ [3]/[e]		Odchyl lÄ…downik w prawo		PrzesuÅ„ lÄ…downik do gÃ³ry	   
+ [5]		WÅ‚Ä…cz/wyÅ‚Ä…cz killrot	   
+ [u]		WÅ‚Ä…cz/wyÅ‚Ä…cz zrzut paliwa silnika gÅ‚Ã³wnego	 
 
 
   
-Wspó³praca z Simulinkiem
+* WspÃ³Å‚praca z Simulinkiem
 	   
- r		Wyœlij sygna³ 'reset' do Simulinka	   
+ [r]		WyÅ›lij sygnaÅ‚ 'reset' do Simulinka	   
    
- F1		W³¹cz prze³¹cznik 1. (monostabilny)	   
- F2		W³¹cz prze³¹cznik 2. (monostabilny)	   
- F3		W³¹cz prze³¹cznik 3. (monostabilny)	   
- F4		W³¹cz prze³¹cznik 4. (monostabilny)	   
- F5		W³¹cz/wy³¹cz prze³¹cznik 5. (bistabilny)	   
- F6		W³¹cz/wy³¹cz prze³¹cznik 6. (bistabilny)	   
- F7		W³¹cz/wy³¹cz prze³¹cznik 7. (bistabilny)	   
- F8		W³¹cz/wy³¹cz prze³¹cznik 8. (bistabilny)	
+ [F1]		WÅ‚Ä…cz przeÅ‚Ä…cznik 1. (monostabilny)	   
+ [F2]		WÅ‚Ä…cz przeÅ‚Ä…cznik 2. (monostabilny)	   
+ [F3]		WÅ‚Ä…cz przeÅ‚Ä…cznik 3. (monostabilny)	   
+ [F4]		WÅ‚Ä…cz przeÅ‚Ä…cznik 4. (monostabilny)	   
+ [F5]		WÅ‚Ä…cz/wyÅ‚Ä…cz przeÅ‚Ä…cznik 5. (bistabilny)	   
+ [F6]		WÅ‚Ä…cz/wyÅ‚Ä…cz przeÅ‚Ä…cznik 6. (bistabilny)	   
+ [F7]		WÅ‚Ä…cz/wyÅ‚Ä…cz przeÅ‚Ä…cznik 7. (bistabilny)	   
+ [F8]		WÅ‚Ä…cz/wyÅ‚Ä…cz przeÅ‚Ä…cznik 8. (bistabilny)	
    
- [góra], [dó³]	Wybierz parametr do edycji	   
- [Insert]	Zmieñ tryb edycji parametrów: inkrementalny/logarytmiczny	   
- [lewo], [prawo]Zmniejsz/zwiêksz parametr o 1.0 / razy 1.1	   
- +CTRL		Zmniejsz/zwiêksz parametr o 0.1	   
- +SHIFT		Zmniejsz/zwiêksz parametr o 10.0	   
+ [gÃ³ra], [dÃ³Å‚]	Wybierz parametr do edycji	   
+ [Insert]	ZmieÅ„ tryb edycji parametrÃ³w: inkrementalny/logarytmiczny	   
+ [lewo], [prawo] Zmniejsz/zwiÄ™ksz parametr o 1.0 / razy 1.1	   
+ +[CTRL]		Zmniejsz/zwiÄ™ksz parametr o 0.1	   
+ +[SHIFT]		Zmniejsz/zwiÄ™ksz parametr o 10.0	   
  [Home]		Ustaw parmetr na 0.0	 
