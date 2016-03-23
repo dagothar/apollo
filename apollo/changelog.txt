@@ -1,0 +1,45 @@
+------------------------------
+	Wersja 0.91
+	17-07-2011
+------------------------------
+	-dodany tryb widoku z pierwszej osoby
+	-widok HUD w trybie pierwszej osoby
+	-poprawiony kod obliczajacy orientacje w stopniach
+	-dodana mozliwosc wprowadzenia oporu atmosfery
+	-dzwiek slyszalny tylko w trybie pierwszej osoby
+
+	Do zrobienia:
+	-wskazniki wektora ciagu w trybie pierwszej osoby
+	-dodatkowy tryb ladowania?
+
+------------------------------
+	Wersja 0.92
+	17-07-2011
+------------------------------
+	-dodany wskaznik wektora ciagu w trybie fpp
+	-poprawione obliczenia dotyczace orientacji (znowu);
+	 teraz pitch w zakresie +-90, yaw i roll +-180
+	-nowe polecenia linii komend; mozna sterowac grawitacja, tarciem atmosfery,
+         parametrami generatora mapy
+	-mapa nie jest generowana przy kazdym uruchomieniu, przy generacji jest
+	 zapisywana, a potem kazdorazowo wczytywana (szybciej sie uruchamia)
+	-mozna podac w wierszu polecen plik, z ktorego wczytujemy mape
+	-pomysl: tryb challenge, po wcisnieciu 'j' ladownik umieszczany jest nad mapa
+	 w losowym polozeniu - do rozwiniecia
+	-dodany regulator pitch w Simulinku
+
+------------------------------
+	Wersja 0.93
+	20-07-2011
+------------------------------
+	-dodane zaklocenia pracy silnika
+	-zmiana parametrow regulatorow
+
+------------------------------
+	Wersja 0.94
+	20-07-2011
+------------------------------
+	-poprawione funkcje wyswietlania
+	-rozbicie kodu na wiecej modulow
+	-dodatkowe okno kamery pomocniczej skierowanej w dol
+	-obsluga komunikatow
